@@ -22,7 +22,7 @@ build_dir:
 ## Helpful scripts
 
 compile:
-	docker run --rm -it -v ${PWD}:/app -w /app cc65:latest make
+	docker run --rm -it -v ${PWD}:/app -w /app viktoras25/cc65:latest make
 
 clean:
 	rm -rf $(BUILD_DIR)
